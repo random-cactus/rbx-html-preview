@@ -1,0 +1,16 @@
+# --- Source & build tooling: kept LOCAL ONLY, never published ---
+# The real (unobfuscated) source lives here. Do NOT commit it.
+/src/
+
+# Build pipeline + dependencies (local only).
+/build/
+/node_modules/
+/package.json
+/package-lock.json
+/CLAUDE.md
+
+# Misc
+*.log
+.DS_Store
+Thumbs.db
+.claude
