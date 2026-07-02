@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://random-cactus.github.io/rbx-html-preview/sitemap.xml
