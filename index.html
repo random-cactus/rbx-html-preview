@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Moved — Clothing Studio</title>
+<!-- Clothing Studio moved from this project-site path to the user site at the
+     domain root, so that /robots.txt and /sitemap.xml are the real domain-root
+     files. GitHub Pages cannot issue a 301, so this is the closest equivalent:
+     a canonical plus a ZERO-second meta refresh, which Google treats as roughly
+     a permanent redirect. Deliberately NOT noindex'd — noindex would stop the
+     canonical consolidating this URL into the new one. -->
+<link rel="canonical" href="https://random-cactus.github.io/" />
+<meta http-equiv="refresh" content="0; url=https://random-cactus.github.io/" />
+<!-- location.replace, not location.href: no history entry, so Back is not a
+     redirect trap. The hash is carried across for deep links like /#faq. -->
+<script>location.replace("https://random-cactus.github.io/" + location.hash);</script>
+<style>
+  body{margin:0;min-height:100vh;display:grid;place-items:center;background:#FFE6EB;
+       color:#2b2b2b;font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif;padding:24px}
+  .card{max-width:34rem;text-align:center}
+  h1{font-size:1.35rem;margin:0 0 .5rem}
+  a{color:#d4276f;font-weight:600}
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>Clothing Studio has moved</h1>
+    <!-- Plain link matters: it is the fallback for crawlers and no-JS clients. -->
+    <p>It now lives at <a href="https://random-cactus.github.io/">random-cactus.github.io</a>.</p>
+    <p>If you are not redirected automatically, follow the link above.</p>
+  </div>
+</body>
+</html>
